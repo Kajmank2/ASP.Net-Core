@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\Lib\" />
+    <Folder Include="wwwroot\Images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Images\audi.jpg" />
+    <None Include="wwwroot\Images\bmw.jpg" />
+    <None Include="wwwroot\Images\chevrolet.jpg" />
+    <None Include="wwwroot\Images\ford1.png" />
+    <None Include="wwwroot\Images\ford2.jpg" />
+    <None Include="wwwroot\Images\jaguar.jpg" />
+    <None Include="wwwroot\Images\nissan.jpg" />
+    <None Include="wwwroot\Lib\Boostrap\css\bootstrap-grid.css" />
+    <None Include="wwwroot\Lib\Boostrap\css\bootstrap-grid.css.map" />
+    <None Include="wwwroot\Lib\Boostrap\css\bootstrap-grid.min.css" />
+    <None Include="wwwroot\Lib\Boostrap\css\bootstrap-grid.min.css.map" />
+    <None Include="wwwroot\Lib\Boostrap\css\bootstrap-reboot.css" />
+    <None Include="wwwroot\Lib\Boostrap\css\bootstrap-reboot.css.map" />
+    <None Include="wwwroot\Lib\Boostrap\css\bootstrap-reboot.min.css" />
+    <None Include="wwwroot\Lib\Boostrap\css\bootstrap-reboot.min.css.map" />
+    <None Include="wwwroot\Lib\Boostrap\css\bootstrap.css" />
+    <None Include="wwwroot\Lib\Boostrap\css\bootstrap.css.map" />
+    <None Include="wwwroot\Lib\Boostrap\css\bootstrap.min.css" />
+    <None Include="wwwroot\Lib\Boostrap\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\Lib\Boostrap\js\bootstrap.bundle.js" />
+    <None Include="wwwroot\Lib\Boostrap\js\bootstrap.bundle.js.map" />
+    <None Include="wwwroot\Lib\Boostrap\js\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\Lib\Boostrap\js\bootstrap.bundle.min.js.map" />
+    <None Include="wwwroot\Lib\Boostrap\js\bootstrap.js" />
+    <None Include="wwwroot\Lib\Boostrap\js\bootstrap.js.map" />
+    <None Include="wwwroot\Lib\Boostrap\js\bootstrap.min.js" />
+    <None Include="wwwroot\Lib\Boostrap\js\bootstrap.min.js.map" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.10" />
+  </ItemGroup>
+
+</Project>

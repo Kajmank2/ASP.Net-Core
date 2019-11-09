@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Lib/Boostrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/site.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="cointener body-content">
+        <div class="header">
+            <p> @Model.Tytul</p>
+        </div>
+        <div class="row">
+            @RenderBody()
+        </div>
+
+    </div>
+</body>
+</html>

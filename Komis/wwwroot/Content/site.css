@@ -1,0 +1,22 @@
+﻿body {
+    background: url(../Images/background.jpg) repeat;
+    background-position: center; /* Center the image */
+    padding: 30px;
+    padding-bottom: 20px;
+    color: white;
+}
+.body-content{
+    padding-left:10px;
+    padding-right:10px;
+}
+.thumbnail img{
+    width:100%;
+    height:300px;
+    border-radius:4px;
+/* Resize the background image to cover the entire container */
+}
+.header{
+    font-size:32px;
+    text-align:center;
+    font-display:auto;
+}
