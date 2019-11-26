@@ -20,6 +20,7 @@ namespace Komis.Models
         public string ZdjecieUrl { get; set; }
         public string MiniaturaUrl { get; set; }
         public bool JestSamochodemTygodnia { get; set; }
+        public bool JestwCentrali { get; set; }
 
     }
 }

@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 100px;
+    color: white;
+    background-color: black;
+}
+.logo{
+    font-family: cursive;
+    font-size: 25px;
+}
+.menu-area ul li{
+    display: inline-block;
+    margin: 0 15px;
+    
+}
+.menu-area ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: poppins;
+}
+.contact-btn button{
+    color: #fff;
+    cursor: pointer;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 12px 30px;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    background-color: transparent;
+}
+
+@media (max-width:1000px){
+    nav{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .menu-area ul{
+        padding:0;
+    }
+    .menu-area ul li{
+        margin: 0 15px 0 0 ;
+    }
+}
+@media(max-width:600px){
+    .logo{
+        margin-top: 0;
+    }
+    nav{
+        padding: 30px;
+    }
+}

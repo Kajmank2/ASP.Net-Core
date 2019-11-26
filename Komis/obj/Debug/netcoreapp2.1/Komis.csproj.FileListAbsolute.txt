@@ -23,3 +23,9 @@ C:\Users\Len\Desktop\ASP.Net Core\Komis\obj\Debug\netcoreapp2.1\Komis.csproj.Cop
 C:\Users\Len\Desktop\ASP.Net Core\Komis\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
 C:\Users\Len\Desktop\ASP.Net Core\Komis\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
 C:\Users\Len\Desktop\ASP.Net Core\Komis\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Len\Desktop\ASP.Net Core\Komis\obj\Debug\netcoreapp2.1\Razor\Views\Home\Szczegoly.g.cshtml.cs
+C:\Users\Len\Desktop\ASP.Net Core\Komis\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Len\Desktop\ASP.Net Core\Komis\obj\Debug\netcoreapp2.1\Razor\Views\Opinia\Index.g.cshtml.cs
+C:\Users\Len\Desktop\ASP.Net Core\Komis\obj\Debug\netcoreapp2.1\Razor\Views\Opinia\OpiniaWyslana.g.cshtml.cs
+C:\Users\Len\Desktop\ASP.Net Core\Komis\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs
+C:\Users\Len\Desktop\ASP.Net Core\Komis\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.g.cshtml.cs

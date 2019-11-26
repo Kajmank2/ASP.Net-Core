@@ -11,7 +11,7 @@
                 <img src="@item.MiniaturaUrl"  alt=""/>
                 <div class="caption">
                     <h3 class="pull-right"> @item.Cena.ToString("c")</h3>
-                    <h3>@item.Marka - @item.Model - @item.RokProdukcji</h3>
+                    <a asp-controller="Home" asp-action="Szczegoly" asp-route-id="@item.Id">@item.Marka</a> - @item.Model - @item.RokProdukcji
                     <h4>Przebieg : @item.Przebieg</h4>
                     <h4>Pojemnosc : @item.Pojemnosc</h4>
                     <h4>Moc : @item.Moc</h4>
